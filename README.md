@@ -32,16 +32,6 @@
 $ npm install
 ```
 
-## Docker Configuration
-
-Install Docker on your system
-
-```bash
-
-$ npm run docker:up
-
-```
-
 # Environment Configuration
 
 ```bash
@@ -52,6 +42,16 @@ $ cp .env.example development.env
  # For production
 $ cp .env.example production.env
 
+
+```
+
+## Docker Configuration
+
+Install Docker on your system
+
+```bash
+
+$ npm run docker:up
 
 ```
 
