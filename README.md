@@ -32,9 +32,33 @@
 $ npm install
 ```
 
+## Docker Configuration
+
+Install Docker on your system
+
+```bash
+
+$ npm run docker:up
+
+```
+
+# Environment Configuration
+
+```bash
+
+# For development
+$ cp .env.example development.env
+
+ # For production
+$ cp .env.example production.env
+
+
+```
+
 ## Running the app
 
 ```bash
+
 # development
 $ npm run start
 
@@ -43,19 +67,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
